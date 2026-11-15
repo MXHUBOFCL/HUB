@@ -1,16 +1,3 @@
---[[
-    MX HUB UI library (readable source)
-
-    Defaults of this build
-      * Title "MX HUB", logo rbxassetid://105865788976884 (header, watermark, mobile toggle)
-      * Theme Mono, Dim on at 100%, Snow weather drawn inside the UI, corner radius 20
-      * Loading screen off. Pass `Loading = true` (or a table) to CreateWindow to turn it on
-      * Autoload runs by itself after the window opens
-      * Watermark (the island) is always on screen: logo | MX HUB | clock | FPS | ping
-      * Settings: Utility (FPS Boost, Fullbright, Anti AFK, Auto Reconnect, Hide Watermark, Minimize UI on Start, Unload Script) with Themes under it, Configs on the right
-      * Sidebar: "Unload Script" entry right under Settings; Community uses the Discord logo asset 127606113874611
-]]
-
 local Library = (function()
 local TweenService = game:GetService("TweenService")
 local UserInputService = game:GetService("UserInputService")
